@@ -15,6 +15,11 @@ Ejemplo para consultar el estado de una factura y obtención del CDR.
 - En `Program.cs`, rellenar la informacion de la factura a consultar
 ```cs
 //...
-var result = service.getStatus(rucComprobante: "201234567891", tipoComprobante: "01", serieComprobante: "F001", numeroComprobante: 200);
+var result = service.getStatus(
+ rucComprobante: "201234567891",
+ tipoComprobante: "01",
+ serieComprobante: "F001",
+ numeroComprobante: 200
+);
 //...
 ```
